@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+.ipynb_checkpoints/
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Crawled data: raw HTML/JSON (~1.2 GB), per-site intermediates and the full
+# dataset (contains full JD text and HR contact names) are not versioned.
+# Regenerate them with the crawlers; only the derived CSVs below are tracked.
+data/*
+!data/jobs_stats.csv
+!data/jobs_clean.csv
+
+# Playwright / browser profiles
+.playwright/
+browser_profile/
